@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Band Component Band Rendering with empty festivals 1`] = `
+<li>
+  <span
+    data-testid="band-band-name"
+  >
+    Winter Primates
+  </span>
+  <ul />
+</li>
+`;
+
+exports[`Band Component Band Rendering with missing festivals 1`] = `
+<li>
+  <span
+    data-testid="band-band-name"
+  >
+    Winter Primates
+  </span>
+  <ul />
+</li>
+`;
+
+exports[`Band Component Band Rendering with name and festivals 1`] = `
+<li>
+  <span
+    data-testid="band-band-name"
+  >
+    Winter Primates
+  </span>
+  <ul>
+    <li
+      data-testid="band-festival-name"
+    >
+      LOL-palooza
+    </li>
+    <li
+      data-testid="band-festival-name"
+    >
+      MIDI
+    </li>
+  </ul>
+</li>
+`;
